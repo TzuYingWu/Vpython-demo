@@ -25,3 +25,4 @@ print(message)
 character = input("請輸入形容自己的形容詞：")
 print(character)
 print("Hello ! " +character+ "的" + message + " !")
+
