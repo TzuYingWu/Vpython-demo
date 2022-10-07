@@ -1,0 +1,21 @@
+"""
+Auther   :吳姿瑩
+Date     :2022/08/17
+version  :python3.10.6
+chapter  :python for寫法
+"""
+
+"""
+1.while true
+"""
+result = 0
+i = 0           #初始值
+n = 10          #設定範圍
+
+while True:
+        print("i= ",i)
+        result += i
+        i += 1
+        if i == 11 :break
+
+print("result = ", result)
