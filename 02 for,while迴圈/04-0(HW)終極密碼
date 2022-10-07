@@ -1,0 +1,51 @@
+"""
+Auther   :吳姿瑩
+Date     :2022/08/17
+version  :python3.10.6
+chapter  :python 終極密碼
+"""
+
+"""
+1.亂數產生
+"""
+import random
+number = random.randint(-100, 100)
+
+
+
+"""
+2.確認輸入者輸入資料
+"""
+#定義範圍
+upper = 100
+lower = -100 
+i = 1
+
+while True:
+    a = int(input("請輸入一個整數a(-100~100) : "))   
+    if (a >= lower & a<=upper):
+        break
+    else:
+        print("請輸入一個整數a(-100~100) : ")
+        continue
+
+
+
+"""
+3.檢查是否為終極密碼數字，並計算次數
+"""
+while True:
+    if (a == number):
+        print("第",i,"次猜測")
+        print("BooM ! You get the Number! ")
+        break
+    elif(a < number):
+        i += 1
+        print("Wrong number，第",i,"次猜測")
+        a = int(input("請輸入再大一點(-100~100) : "))
+        continue
+    else:
+        i += 1
+        print("Wrong number，第",i,"次猜測")
+        a = int(input("請輸入再小一點(-100~100) : "))
+        continue
