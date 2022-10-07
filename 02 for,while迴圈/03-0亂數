@@ -1,0 +1,2 @@
+import random
+print("亂數:" ,random.randint(-100, 100))
