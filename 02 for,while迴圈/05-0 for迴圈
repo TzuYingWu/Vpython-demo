@@ -1,0 +1,18 @@
+"""
+Auther   :吳姿瑩
+Date     :2022/10/07
+version  :python3.10.6
+chapter  :python for寫法
+"""
+
+"""
+1.for 條件
+"""
+result = 0
+
+for i in range(11) :
+        print("i= ",i)
+        result += i
+        i += 1
+
+print("result = ", result)
