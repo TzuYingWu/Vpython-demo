@@ -4,6 +4,7 @@ Date     :2022/10/21
 version  :python3.10.6 vpython7
 chapter  :環境設置
 """
+
 from vpython import *
 
 #t = text(text='Faces forward', pos=vec(-4,0,0),color=color.cyan, billboard=True, emissive=True)
